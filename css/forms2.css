@@ -1,0 +1,94 @@
+body {
+    overflow: hidden;
+}
+.form {
+    padding-top: 10vh;
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+h1 {
+    font-family: 'Inter', sans-serif;
+    display: block;
+    font-weight: normal;
+    font-size: 40px;
+    width: 98%;
+    overflow: hidden;
+}
+h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+#logo {
+    font-family: 'Julius Sans One', sans-serif;
+}
+/*form{
+    height: 100vh;
+    width: 100vw;
+    display: flex; 
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}*/
+
+input {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    outline: none;
+}
+
+input[type="text"], input[type="email"], input[type="password"] {
+    height: 14vw;
+    width: 86.5vw;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    border: solid #959595 1px;
+    text-align: left;
+    padding-left: 10px;
+    color: black;
+    font-size: 18px;
+}
+a {
+    transition: all 200ms;
+}
+.btn, input[type="submit"] {
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #8B2681;
+    color: white;
+    height: 14vw;
+    padding-bottom: calc((14vw - 25px) / 2);
+    width: 86.5vw;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+}
+.logo {
+    height: 28vw;
+    width: 28vw;
+}
+.back, .back1, .back2 {
+    height: 28px;
+    width: auto;
+    position: absolute;
+    left: 5vw;
+    top: calc(102vh + 2vw);
+}
+.back2 {
+    top: calc(202vh + 2vw);
+}
+.back {
+    left: 2vh;
+    top: 2vh;
+}
