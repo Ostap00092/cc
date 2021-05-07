@@ -1,12 +1,21 @@
 * {
     font-family: 'Inter', sans-serif;
 }
+.dontIn {
+    width: 85%;
+}
+.dontIn a {
+    width: 100%;
+}
 h2 {
-    font-size: 40px;
+    font-size: 36px;
     text-align: center;
     font-weight: normal;
+    width: 70%;
+    text-align: left;
+    margin-bottom: 3vh;
 }
-.btn {
+/* .btn {
     text-decoration: none;
     background-color: #8B2681;
     text-align: center;
@@ -17,13 +26,12 @@ h2 {
     font-size: 25px;
     font-weight: bold;
     padding-top: 12px;
-    
     font-style: normal;
     font-weight: normal;
     line-height: 28px;
     border-radius: 5px;
-}
-.container {
+} */
+/* .container {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,21 +39,17 @@ h2 {
     width: 100vw;
     height: auto;
     padding-top: 20px;
-}
+} */
 p {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
     font-size: 25px;
 }
-.btn2 {
-    font-size: 25px;
-    text-decoration: none;
-    font-weight: bold;
-    color: black;
-}
-.wrap {
+/* .wrap {
     padding-top: -5vh;
     height: 100vh;
     display: flex;
     position: relative;
     align-items: center;
     flex-direction: column;
-}
+} */

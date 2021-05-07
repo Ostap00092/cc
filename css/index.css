@@ -10,21 +10,26 @@ body {
     box-sizing: border-box;
 }
 .btn {
-    margin-top: 30px;
+    margin-top: 4vh;
     text-decoration: none;
     background-color: #8B2681;
     color: white;
-    height: 8vh;
-    width: 40vw;
+    width: 100%;
     border-radius: 5px;
     font-family: 'Inter', sans-serif;
     font-style: normal;
-    font-weight: 500;
     font-size: 25px;
-    line-height: 55px;
+    padding: 2vh;
+    position: relative;
     align-items: center;
-    justify-content: center;
     border: none;
+
+}
+.btn2 {
+    font-size: 25px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
 }
 .justcenter {
     position: relative;

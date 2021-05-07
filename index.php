@@ -6,6 +6,7 @@
 	<link rel="stylesheet" href="css/menu.css">
 	<link rel="stylesheet" href="css/all.css">
 	<link rel="stylesheet" href="css/index.css">
+	<link rel="stylesheet" href="css/go.css">
 	<title>Creation Community</title>
 </head>
 <body>
@@ -14,12 +15,14 @@
 		if ($_COOKIE['onauto'] != 1) {
 			echo "<h2>Приветствуем, <br> мы рады видеть вас.
 			</h2>
-			<a href='go.php'><div class='btn'>
-				Начать
-			</div></a>";
+			<div class='dontIn'>
+				<a href='go.php'><div class='btn'>
+					Начать
+				</div></a>
+			</div> ";
 		}?>
 
-		<?php echo "<a href='watch.php'><div class='btn'>Смотреть публикации</div></a>";
+		<?php echo "<div class='dontIn'><a href='watch.php'><div class='btn'>Смотреть публикации</div></a></div>";
 		?>
 		
 		<?php
