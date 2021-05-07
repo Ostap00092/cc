@@ -1,0 +1,7 @@
+input[type="checkbox"] {
+    margin: 5px;
+    margin-top: 10px;
+}
+input[type="submit"] {
+    margin-top: 10px;
+}

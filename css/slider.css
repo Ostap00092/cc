@@ -1,0 +1,27 @@
+.slider {
+	min-width: 0;
+	width: 100vw;
+	height: auto;
+	z-index: 10000;
+}
+.slider__item {
+
+}
+.slider__item img {
+	width: auto;
+	max-width: 90vw;
+	margin-left: 5vw;
+}
+.slick-slider {
+
+}
+.slick-list {
+	overflow: hidden;
+}
+.slick-track {
+	display: flex;
+
+}
+.slick-slide {
+
+}

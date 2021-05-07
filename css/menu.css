@@ -1,0 +1,27 @@
+.container {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+    height: auto;
+    padding-top: 20px;
+}
+.bottom {
+	position: fixed;
+	bottom: 66px;
+}
+.logo {
+	height: 73px;
+	width: 73px;
+	margin: 14px;
+	background-color: #fff;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.container img {
+	height: 70px;
+	width: 70px;
+	border: solid white 5px;
+	margin-left: 1.5px;
+	margin-top: 1.5px;
+	z-index: 1000;
+}

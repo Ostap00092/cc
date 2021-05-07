@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500&family=Julius+Sans+One&family=Oswald:wght@300;400;500&display=swap');
+* {
+/*	font-family: 'Inter', sans-serif;
+	font-family: 'Julius Sans One', sans-serif;
+	font-family: 'Oswald', sans-serif;*/
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+}
+::placeholder {
+	color: black;
+}

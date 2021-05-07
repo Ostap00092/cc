@@ -1,0 +1,40 @@
+.icon {
+    height: 65px;
+    width: 65px;
+    border-radius: 50%;
+    background-color: red;
+    display: inline-block;
+    z-index: 1001;
+    margin: 15px;
+}
+.author_name {
+    height: 50px;
+    width: 100vw;
+    position: fixed;
+    background-color: blueviolet;
+    bottom: 50px;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1001;
+}
+.icons_container {
+    width: 100vw;
+    height: 70px;
+    position: fixed;
+    left: 0; 
+    bottom: 20px;
+    display: flex;
+    justify-content: center;
+    z-index: 1000;
+    align-items: center;
+}
+.profile_logo {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    background-color: aqua;
+    z-index: 1001;
+    margin: 15px;
+}

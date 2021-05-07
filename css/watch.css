@@ -1,0 +1,44 @@
+body {
+    width: 100vw;
+    height: 300vh;
+    overflow-x: hidden;
+}
+.article {
+    width: 100vw;
+    height: 100vh;
+    /* background-color: red; */
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: -1;
+}
+.author {
+    position: absolute;
+    bottom: 170px;
+    height: 80px;
+    width: 100vw;
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.profile_logo {
+    border: 0;
+    border-radius: 50%;  
+    height: 70px;
+    width: 70px; 
+    margin-right: 50px; 
+}
+.name {
+    font-size: 34px;
+    font-family: 'Inter', sans-serif;
+}
+.art {
+    height: auto;
+    max-width: 98vw;
+    margin-left: 1vw;
+    width: auto;
+    max-height: 100vh;
+}

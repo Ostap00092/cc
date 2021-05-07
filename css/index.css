@@ -1,0 +1,27 @@
+body {
+	display: flex;
+	height: 100vh;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	text-align: center;
+	font-family: 'Inter', sans-serif;
+}
+.btn {
+    margin-top: 30px;
+    text-decoration: none;
+    background-color: #8B2681;
+    color: white;
+    height: 5vh;
+    padding-bottom: calc((14vw - 25px) / 2);
+    width: 40vw;
+    border-radius: 5px;
+    font-family: 'Inter', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    line-height: 55px;
+    display: inline-block;
+    vertical-align: middle;
+    border: none;
+}
